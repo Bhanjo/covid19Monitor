@@ -7,6 +7,7 @@ const newCovid = document.querySelector(".newCovid");
 const newCaseBox = document.querySelectorAll(".newCaseBox");
 
 totalOutbreak[0].style.color = "#F82828";
+totalOutbreak[0].style.border = "none";
 
 fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php", {
     "method": "GET",

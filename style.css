@@ -9,12 +9,13 @@
 }
 .contentWrap {
     width: 100%;
-    margin: 2rem auto 0 auto;
+    margin: 1rem auto 0 auto;
 }
 @media(max-width: 768px) {
     .contentWrap {
         width: 100%;
         font-size: 0.8rem;
+        background-color: #fcfaf7;
     }
     .setTime {
         color: green;
@@ -23,28 +24,54 @@
         text-align: center;
     }
     .totalCovid {
-        margin: 2rem auto 2rem auto;
+        margin: 1rem auto 1rem auto;
         display: flex;
     }
     .totalOutbreak {
         margin: 0 auto;
         padding: 1rem;
         text-align: center;
-        border: 1px #8d8d8d solid;
-        border-width: 0px 1px 0px 1px;
+        border: 1px #c4c4c4 solid;
+        border-width: 0px 0px 0px 1px;
     }
     .newCovid {
-        margin: 2rem auto 2rem auto;
-        display: flex;
+        margin: 1rem auto 1rem auto;
     }
     .nowOutbreak {
         margin: 0 auto;
         padding: 0.5rem;
         text-align: center;
-        /* border: 1px #8d8d8d solid;
-        border-width: 0px 1px 0px 1px; */
     }
     .boxName {
         font-weight: bold;
+    }
+    .contentLine {
+        margin: 0 auto;
+        height: 1px;
+        width: 99%;
+        border: 1px #c4c4c4 solid;
+        border-width: 1px 0px 0px 0px;
+    }
+    .countryCovid {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0rem auto 1rem auto;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .covidCountries, .covidCase{
+        padding: 0.7rem 0.3rem;
+        width: 20%;
+        border: 1px #c4c4c4 solid;
+        border-width: 1px 0px;
+    }
+    .covidCase a{
+        align-items: center;
+        /* transform: translateY(50%); */
+    }
+    .covidCountries {
+        background-color: blanchedalmond;
     }
 }
