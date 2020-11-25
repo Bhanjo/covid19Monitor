@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contentWrap">
+        <div class="setTime"></div>
+
+        <!-- 총 발병 데이터 -->
+        <div class="totalCovid">
+            <div class="totalOutbreak">
+                <div class="boxName">총 발병</div>
+                <div class="totalCaseBox"></div>
+            </div>
+
+            <div class="totalOutbreak">
+                <div class="boxName">사망</div>
+                <div class="totalCaseBox"></div>
+            </div>
+
+            <div class="totalOutbreak">
+                <div class="boxName">완치</div>
+                <div class="totalCaseBox"></div>
+            </div>
+        </div>
+
+        <!-- 진행, 신규 데이터 -->
+        <div class="newCovid">
+            <div class="nowOutbreak">
+                <div class="boxName">현재 발병</div>
+                <div class="newCaseBox"></div>
+            </div>
+
+            <div class="nowOutbreak">
+                <div class="boxName">신규 발병</div>
+                <div class="newCaseBox"></div>
+            </div>
+
+            <div class="nowOutbreak">
+                <div class="boxName">신규 사망</div>
+                <div class="newCaseBox"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="covidSum.js"></script>
+</body>
+
+</html>
