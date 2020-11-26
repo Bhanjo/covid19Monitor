@@ -30,6 +30,7 @@ function loadCovid() {
     }
     const coronaStat = document.querySelector(".countryCovid");
     let coronaStatHTML = countriesStat
+      // map 함수를 통해 배열 안에 아래 값을 넣어준다.
       .map((item) => {
         //   <span> ${item.id} : </span> 순위
         return `<div class="covidCountries"> ${item.country_name} </div>
