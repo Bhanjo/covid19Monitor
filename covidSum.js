@@ -1,9 +1,7 @@
 // 총 확진자
-const totalCovid = document.querySelector(".totalCovid");
 const totalCaseBox = document.querySelectorAll(".totalCaseBox");
 const totalOutbreak = document.querySelectorAll(".totalOutbreak");
 // 일별 총 확진자
-const newCovid = document.querySelector(".newCovid");
 const newCaseBox = document.querySelectorAll(".newCaseBox");
 
 totalOutbreak[0].style.color = "#F82828";
