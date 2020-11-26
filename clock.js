@@ -8,7 +8,7 @@ function nowTime() {
     const minute = time.getMinutes();
     const seconds = time.getSeconds();
 
-    const date = `${year}년 ${month < 10 ? `0${month}` : `${month}`}월 ${ day < 10 ? `0${day}` : `${day}`}일 ${hour < 10? `0${hour}` : `${hour}`}:${minute < 10? `0${minute}` : `${minute}`}:${seconds < 10 ? `0${seconds}` : `${seconds}`}`;
+    const date = `${year}년 ${month < 10 ? `0${month}` : `${month}`}월 ${ day < 10 ? `0${day}` : `${day}`}일 ${hour < 10? `0${hour}` : `${hour}`}시 기준 현황`;
     return (nowTime.innerText = date);
 }
-setInterval(nowTime, 1000);
+// setInterval(nowTime, 1000);
